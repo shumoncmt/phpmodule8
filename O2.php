@@ -21,5 +21,5 @@ $motorcycle->calculatorKM();
 $car = new MileageCalculator();
 $car->pricePerLiter = 125;
 $car->distance= 300;
-$car->totalFuelPrice= 2000;
+$car->totalFuelPrice= 1500;
 $car->calculatorKM();
