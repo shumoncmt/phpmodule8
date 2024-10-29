@@ -1,7 +1,7 @@
 <?php
 //Motorcycle Price Calculator
 
-class MileageCalculator{
+class MileageCalculators{
     public $pricePerLiter;
     public $distance;
     public $totalFuelPrice;
@@ -12,13 +12,13 @@ class MileageCalculator{
     }
 }
 
-$motorcycle = new MileageCalculator();
+$motorcycle = new MileageCalculators();
 $motorcycle->pricePerLiter= 122;
 $motorcycle->distance = 100;
 $motorcycle->totalFuelPrice = 800;
 $motorcycle->calculatorKM();
 
-$car = new MileageCalculator();
+$car = new MileageCalculators();
 $car->pricePerLiter = 125;
 $car->distance= 300;
 $car->totalFuelPrice= 1500;
