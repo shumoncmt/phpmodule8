@@ -15,7 +15,7 @@ $joni->introduce();
 // echo "Hi, I am {$joni->name}, and I am {$joni->age} years Old \n" ;
 
 
-$jow = new parson();
+$jow = new parson();//object
 $jow->name= "Abir";
 $jow->age = 36;
 $jow->introduce();
