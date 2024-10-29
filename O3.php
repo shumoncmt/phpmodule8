@@ -22,3 +22,6 @@ $motorcycle->calculatorKM();
 $bike =new MileageCalculator(130, 150, 500);
 $bike->calculatorKM();
 
+
+$hybridCar = new MileageCalculator(130, 200, 1500);
+$hybridCar->calculatorKM();
