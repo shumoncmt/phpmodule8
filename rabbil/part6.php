@@ -34,9 +34,9 @@ class BaseClass{
     public function test(){
         echo "BaseClass :: Test () called \n";
     }
-  final public function moreTesting(){
-        echo "BaseClass :: MoreTesting() called \n";
-    }
+//   final public function moreTesting(){
+//         echo "BaseClass :: MoreTesting() called \n";
+//     }
 }
 
 class childClass extends BaseClass{
